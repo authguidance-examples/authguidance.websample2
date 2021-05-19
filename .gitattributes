@@ -1,0 +1,2 @@
+// Prevents comments in launch.json files being marked in red in GitHub
+*.json linguist-language=JavaScript

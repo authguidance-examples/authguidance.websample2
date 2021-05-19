@@ -1,0 +1,28 @@
+{
+    // To debug the TypeScript code, run the API from the debug tab of Visual Studio Code
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch API",
+
+            // Execute ts-node in the debugger
+            "runtimeArgs": ["-r", "ts-node/register"],
+            "args": ["src/host/startup/app.ts"],
+
+            // This passes the 'all files' --files option so that typings are found
+            "env": {
+                "TS_NODE_FILES": "true"
+            },
+
+            // Output API logs to the debug console
+            "outputCapture": "std",
+
+            // Avoid debugging node internal files such as async_hooks
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}

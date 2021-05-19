@@ -1,0 +1,5 @@
+.gitignore
+node_modules
+/spa/dist/*
+!/spa/dist/unsupported.js
+.DS_Store

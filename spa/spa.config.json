@@ -1,0 +1,13 @@
+{
+    "app": {
+        "webBaseUrl":             "https://web.mycompany.com",
+        "apiBaseUrl":             "https://api.mycompany.com/api"
+    },
+    "oauth": {
+        "authority":              "https://dev-843469.oktapreview.com/oauth2/default",
+        "clientId":               "0oac5m78icnW3C06L0h7",
+        "redirectUri":            "/spa",
+        "postLogoutRedirectUri":  "/spa#loggedout",
+        "scope":                  "openid profile email transactions_read"
+    }
+}
