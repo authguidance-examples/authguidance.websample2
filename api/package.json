@@ -18,7 +18,7 @@
     "js-sha256": "^0.9.0",
     "node-cache": "^5.1.2",
     "on-headers": "^1.0.2",
-    "openid-client": "^4.2.1",
+    "openid-client": "^4.7.4",
     "tunnel-agent": "^0.6.0",
     "url": "^0.11.0",
     "winston": "^3.3.3"
